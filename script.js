@@ -9,7 +9,6 @@ window.addEventListener('scroll', function(){
     if(foot.top <= topoFooter){
         navbar.style.display = 'none';
     } 
-   
     else {
         navbar.style.display = 'flex';
     }
