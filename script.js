@@ -5,8 +5,7 @@ let topoFooter = 160;
 
 window.addEventListener('scroll', function(){
     const foot = footer.getBoundingClientRect();
-    const nav = navbar.getBoundingClientRect()
-    console.log(nav)
+    
     if(foot.top <= topoFooter){
         navbar.style.display = 'none';
     } 
