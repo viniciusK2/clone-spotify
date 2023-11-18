@@ -270,7 +270,7 @@ body{
       align-items: center;
      }
      .logo-responsivo{
-      width: 200px;
+      width: auto;
      }
      #footer .footer-content .footer-menu .footer-menu-item{
         text-align: center;
@@ -351,7 +351,7 @@ body{
        flex-direction: column;
       }
       .logo-responsivo{
-         width: 200px;
+         width: auto;
         }
       #footer .footer-content .footer-menu .footer-menu-item{
          text-align: center;
