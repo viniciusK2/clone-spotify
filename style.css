@@ -47,7 +47,7 @@ body{
 }
 
 #navbar .navbar-container{
-    width: 60%;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -229,6 +229,9 @@ body{
    #footer .footer-content .footer-menu{
       margin: 0 25px;
    }
+   .footer-info{
+      width: auto;
+   }
 }
 
 
@@ -239,12 +242,12 @@ body{
    }
    #navbar .navbar-container{
       flex-direction: column;
+      width: auto;
    }
 
    #navbar .navbar-container ul{
       padding-top: 20px;
    }
-
    /* Showcase */
    .showcase .showcase-container h2{
       font-size: 3.6rem;
